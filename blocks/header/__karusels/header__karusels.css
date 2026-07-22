@@ -1,0 +1,35 @@
+.header__karusels {
+    background-image: url("../../../images/Rectangle_24.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    max-width: 288px;
+    min-height: 252px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__karusels {
+      padding: 0 0 0 0;
+      max-width: 768px;
+      min-height: 672px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header__karusels {
+      max-width: 512px;
+      min-height: 449px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header__karusels {
+      max-width: 640px;
+      min-height: 561px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .header__karusels {
+      max-width: 960px;
+      min-height: 842px;
+  }
+}
