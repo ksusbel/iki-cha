@@ -1,0 +1,12 @@
+.header__karusels_discription_title {
+    color: #2B2E2A;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__karusels_discription_title {
+    font-size: 20px;
+  }
+}
