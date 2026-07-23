@@ -1,0 +1,6 @@
+.header__karusels_discription {
+    width: 342px;
+    display: flex;
+    flex-direction: column;
+    margin: 11% 0 0 6%;
+}
