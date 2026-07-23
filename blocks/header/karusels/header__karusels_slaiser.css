@@ -1,5 +1,5 @@
 .header__karusels_slaiser {
-    width: 38px;
+    max-width: 38px;
     height: 10px;
     position: absolute;
     bottom: 16px;

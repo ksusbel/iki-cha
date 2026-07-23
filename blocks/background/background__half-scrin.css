@@ -6,13 +6,12 @@
   max-width: 266vw;
   min-height: 87vw;
   max-height: 233vw;
-  padding: 0 0 0 0;
-  position: relative;
+  padding: 0 0 0 0;  
 }
 
 @media screen and (min-width: 1024px) {
   .background__half-scrin {
-        min-width: 50vw;
+  min-width: 50vw;
   max-width: 93vw;
   min-height: 43vw;
   max-height: 82vw;
