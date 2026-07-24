@@ -10,18 +10,9 @@ $(document).ready(function() {
     smartSpeed: 1000,
     margin: 0,
     animateIn: 'fadeIn',
-    animateOut: 'fadeOut'
-    
+    animateOut: 'fadeOut'    
 });
 });
 
-var slaiderFirst = function() {   
-    $('#karusel_2').show();   
-}
-var slaiderSecond = function() { 
-    $('#karusel_3').show();
-}
-var slaiderThird = function() {
-    $('#karusel_1').show();   
-}
+
 
