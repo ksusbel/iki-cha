@@ -8,35 +8,38 @@
         <meta name="author" content="Оксана Белякова">
         <title>IKI CHA</title>
         <link type="text/css" rel="stylesheet" href="pages/index.css">
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-        <script src="scripts/index.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        
     </head>
     <body class="page">
         <header class="header">
             <div class="header__logo background__half-scrin"></div>
-            <div class="header__karusels_img-first background__half-scrin" id="karusel_1">
-                <div class="header__karusels_discription">
-                    <h3 class="header__karusels_discription_title">Чай со вкусом открытия</h3>
-                    <p class="header__karusels_discription_text">Только сейчас — уникальные предложения на лучшие сорта.</p>
-                    <a class="header__karusels_discription_link">В каталог</a>
+            <div class="background__half-scrin owl-carousel owl-theme" id="slider">
+                <div class="slide header__karusels_img-first background__half-scrin" id="karusel_1">
+                    <div class="header__karusels_discription">
+                        <h3 class="header__karusels_discription_title">Чай со вкусом открытия</h3>
+                        <p class="header__karusels_discription_text">Только сейчас — уникальные предложения на лучшие сорта.</p>
+                        <a class="header__karusels_discription_link">В каталог</a>
+                    </div>
+                    <img class="header__karusels_slaiser" src="./images/slaider_1.svg" alt="Слайдер 1" onclick="slaiderFirst();">
                 </div>
-                <img class="header__karusels_slaiser" src="./images/slaider_1.svg" alt="Слайдер 1" onclick="slaiderFirst();">
-            </div>
-            <div class="header__karusels_img-second background__half-scrin" id="karusel_2" style="display: none;" onclick="slaiderSecond();">
-                <div class="header__karusels_discription">
-                    <h3 class="header__karusels_discription_title">Свежие поступления японского чая</h3>
-                    <p class="header__karusels_discription_text">Откройте новые вкусы и традиции в каждой чашке.</p>
-                    <a class="header__karusels_discription_link">Смотреть новинки</a>
+                <div class="slide header__karusels_img-second background__half-scrin " id="karusel_2">
+                    <div class="header__karusels_discription">
+                        <h3 class="header__karusels_discription_title">Свежие поступления японского чая</h3>
+                        <p class="header__karusels_discription_text">Откройте новые вкусы и традиции в каждой чашке.</p>
+                        <a class="header__karusels_discription_link">Смотреть новинки</a>
+                    </div>
+                    <img class="header__karusels_slaiser" src="./images/slaider_2.svg" alt="Слайдер 2" onclick="slaiderSecond();">
                 </div>
-                <img class="header__karusels_slaiser" src="./images/slaider_2.svg" alt="Слайдер 2">
-            </div>
-            <div class="header__karusels_img-third background__half-scrin" id="karusel_3" style="display: none;" onclick="slaiderThird();">
-                <div class="header__karusels_discription">
-                    <h3 class="header__karusels_discription_title">Тематические коллекции для вдохновения</h3>
-                    <p class="header__karusels_discription_text">Подберите идеальный чай для настроения, подарка или знакомства с культурой Японии..</p>
-                    <a class="header__karusels_discription_link">Открыть подборки</a>
+                <div class="slide header__karusels_img-third background__half-scrin " id="karusel_3">
+                    <div class="header__karusels_discription">
+                        <h3 class="header__karusels_discription_title">Тематические коллекции для вдохновения</h3>
+                        <p class="header__karusels_discription_text">Подберите идеальный чай для настроения, подарка или знакомства с культурой Японии..</p>
+                        <a class="header__karusels_discription_link">Открыть подборки</a>
+                    </div>
+                    <img class="header__karusels_slaiser" src="./images/slaider_3.svg" alt="Слайдер 3" onclick="slaiderThird();">
                 </div>
-                <img class="header__karusels_slaiser" src="./images/slaider_3.svg" alt="Слайдер 3">
             </div>
         </header>
         <main class="content">
@@ -81,5 +84,9 @@
         <footer class="footer">            
             <p class="footer__copyright">&copy; 2026. верстка-Оксана Белякова, дизайнер-Наташа Белякова</p>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="scripts/index.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     </body>
 </html>
