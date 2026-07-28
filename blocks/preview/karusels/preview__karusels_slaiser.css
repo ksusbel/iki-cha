@@ -1,0 +1,8 @@
+.preview__karusels_slaiser {
+    max-width: 38px;
+    height: 10px;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    cursor: pointer;
+}
