@@ -14,7 +14,29 @@
     </head>
     <body class="page">
         <header class="header">
-            
+            <div class="header__menu">
+                <img class="header__menu_img cursor-point" src="./images/menu.svg" alt="Меню" onclick="">
+                <div class="header__menu_links">
+                    <a class="header__menu_link" href="">Каталог</a>
+                    <a class="header__menu_link" href="">О бренде</a>
+                    <a class="header__menu_link" href="">Доставка и оплата</a>
+                    <a class="header__menu_link" href="">FAQ</a>
+                </div>
+            </div>
+            <div class="header__links">
+                <a class="header__links_link" href="">
+                    <img class="header__menu_img" src="./images/search_1.svg" alt="Поиск">
+                </a>
+                <a class="header__links_link" href="">
+                    <img class="header__menu_img" src="./images/heart.svg" alt="Лайк">
+                </a>
+                <a class="header__links_link" href="">
+                    <img class="header__menu_img" src="./images/beg.svg" alt="Каталог">
+                </a>
+                <a class="header__links_link" href="">
+                    <img class="header__menu_img" src="./images/person_1.svg" alt="Личный кабинет">
+                </a>
+            </div>
         </header>
         <main class="content">
             <!--Блок Прьевью-->
@@ -49,8 +71,95 @@
                 </div>
             </section>
             <!--Блок Популярные товары-->
-            <section class="popular-products">
-                
+            <section class="popular">
+                <div class="popular__header">
+                    <h1 class="popular__title">Популярные товары</h1>
+                    <a class="popular__link">В каталог
+                        <img class="popular__link_img" src="./images/strela.svg" alt="В каталог">   
+                    </a>
+                </div>                
+                <div class="popular__card-grid">
+                    <div class="popular__card">
+                        <div class="popular__card_picture">
+                            <img class="popular__picture_photo" src="./images/Frame_1.png" alt="Товар">
+                            <img class="popular__picture_img img_left" src="./images/heart.svg" alt="Лайк">
+                            <img class="popular__picture_img img_right" src="./images/beg.svg" alt="Каталог">
+                        </div>
+                        <p class="popular__card_name">Матча</p>
+                        <div class="popular__card_price">
+                            1 990 ₽<span>/5 00 гр</span>
+                        </div>
+                        <div class="popular__card_plus-minus">
+                            <input type="button" value="-">
+                            1
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                    <div class="popular__card">
+                        <div class="popular__card_picture">
+                            <img class="popular__picture_photo" src="./images/Frame_2.png" alt="Товар">
+                            <img class="popular__picture_img img_left" src="./images/heart.svg" alt="Лайк">
+                            <img class="popular__picture_img img_right" src="./images/beg.svg" alt="Каталог">
+                        </div>
+                        <p class="popular__card_name">Сенча</p>
+                        <div class="popular__card_price">
+                            1 990 ₽<span>/ 500 гр</span>
+                        </div>
+                        <div class="popular__card_plus-minus">
+                            <input type="button" value="-">
+                            1
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                    <div class="popular__card">
+                        <div class="popular__card_picture">
+                            <img class="popular__picture_photo" src="./images/Frame_3.png" alt="Товар">
+                            <img class="popular__picture_img img_left" src="./images/heart.svg" alt="Лайк">
+                            <img class="popular__picture_img img_right" src="./images/beg.svg" alt="Каталог">
+                        </div>
+                        <p class="popular__card_name">Банча</p>
+                        <div class="popular__card_price">
+                            1 350 ₽<span>/ 200 гр</span>
+                        </div>
+                        <div class="popular__card_plus-minus">
+                            <input type="button" value="-">
+                            1
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                    <div class="popular__card">
+                        <div class="popular__card_picture">
+                            <img class="popular__picture_photo" src="./images/Frame_4.png" alt="Товар">
+                            <img class="popular__picture_img img_left" src="./images/heart.svg" alt="Лайк">
+                            <img class="popular__picture_img img_right" src="./images/beg.svg" alt="Каталог">
+                        </div>
+                        <p class="popular__card_name">Кукича</p>
+                        <div class="popular__card_price">
+                            1 450 ₽<span>/ 200 гр</span>
+                        </div>
+                        <div class="popular__card_plus-minus">
+                            <input type="button" value="-">
+                            1
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                    <div class="popular__card card_display">
+                        <div class="popular__card_picture">
+                            <img class="popular__picture_photo" src="./images/Frame_5.png" alt="Товар">
+                            <img class="popular__picture_img img_left" src="./images/heart.svg" alt="Лайк">
+                            <img class="popular__picture_img img_right" src="./images/beg.svg" alt="Каталог">
+                        </div>
+                        <p class="popular__card_name">Кокейча</p>
+                        <div class="popular__card_price">
+                            1 450 ₽<span>/ 200 гр</span>
+                        </div>
+                        <div class="popular__card_plus-minus">
+                            <input type="button" value="-">
+                            1
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                </div>
             </section>
             <!--Блок Категории продукции-->
             <section class="product-categories">    

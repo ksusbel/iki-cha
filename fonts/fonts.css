@@ -2,5 +2,12 @@
     font-family: "Manrope";
     src: url(../fonts/Manrope.ttf) format("truetype");    
 }
-
+@font-face {
+    font-family: "Manrope_medium";
+    src: url(../fonts/manrope-5.otf) format("truetype");    
+}
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-Regular.otf) format("truetype");    
+}
  

@@ -1,0 +1,24 @@
+.popular {
+ margin: 80px 16px 0 16px;
+ 
+  height: 100%;  
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;  
+  justify-content: space-between;
+  
+}
+
+@media screen and (min-width: 744px) {
+  .popular {
+    margin: 80px 16px 0 16px;
+   
+  }
+}
+@media screen and (min-width: 1920px) {
+  .popular {
+    margin: 144px 16px 0 16px;
+   
+  }
+}

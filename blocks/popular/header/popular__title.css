@@ -1,0 +1,12 @@
+.popular__title {
+    text-transform: uppercase;
+    color: #2F4F3E;
+    font-size: 24px;
+}
+
+@media screen and (min-width: 1920px) {
+  .popular__title {
+    font-size: 32px;   
+    font-family: "Manrope_medium", Arial, sans-serif;
+  }
+}

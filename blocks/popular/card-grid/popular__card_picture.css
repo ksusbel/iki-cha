@@ -1,0 +1,17 @@
+.popular__card_picture {
+    width: 370px;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+@media screen and (min-width: 744px) {
+  .popular__card_picture {
+    width: 352px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .popular__card_picture {
+    width: 371px;
+  }
+}
