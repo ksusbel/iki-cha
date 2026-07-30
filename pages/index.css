@@ -32,3 +32,9 @@
 @import url(../blocks/popular/card-grid/popular__card_price.css);
 @import url(../blocks/popular/card-grid/popular__picture_img.css);
 @import url(../blocks/popular/card-grid/popular__picture_photo.css);
+@import url(../blocks/popular/card-grid/popular__card_plus-minus.css);
+@import url(../blocks/background//background__three-scrin.css);
+@import url(../blocks/сategories/сategories.css);
+@import url(../blocks/сategories/category/categories__category_img.css);
+@import url(../blocks/сategories/category/categories__category_link.css);
+@import url(../blocks/сategories/category/categories__category_title.css);

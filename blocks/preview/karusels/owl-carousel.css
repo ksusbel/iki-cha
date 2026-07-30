@@ -1,16 +1,16 @@
 .owl-carousel {
   margin-top: 0;
   padding: 0;  
-  min-width: 100vw;
+  min-width: 90vw;
 }
 @media screen and (min-width: 744px) {
   .owl-carousel { 
-  min-width: 50vw;
+  min-width: 40vw;
   }
 }
 @media screen and (min-width: 1920px) {
   .owl-carousel { 
-  min-width: 50vw;
+  min-width: 40vw;
   }
 }
 

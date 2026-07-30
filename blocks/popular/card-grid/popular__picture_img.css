@@ -1,6 +1,7 @@
 .popular__picture_img {
     position: absolute;
     top: 8px;    
+    cursor: pointer;
 }
 .img_right {
     right: 8px;    

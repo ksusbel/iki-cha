@@ -1,0 +1,17 @@
+.popular__card_plus-minus {  
+    color: #6B8F71;   
+    font-size: 20px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+.popular__card_plus-minus button {
+    border: 0 solid black;
+    cursor: pointer;
+    background-color: transparent;   
+    
+}
+.popular__card_plus-minus button img {
+    width: 24px;
+}

@@ -50,7 +50,7 @@
                             <p class="preview__karusels_discription_text">Только сейчас — уникальные предложения на лучшие сорта.</p>
                             <a class="preview__karusels_discription_link">В каталог</a>
                         </div>
-                        <img class="preview__karusels_slaiser" src="./images/slaider_1.svg" alt="Слайдер 1" onclick="slaiderFirst();">
+                        <img class="preview__karusels_slaiser" src="./images/slaider_1.svg" alt="Слайдер 1">
                     </div>
                     <div class="slide preview__karusels_img-second background__half-scrin " id="karusel_2">
                         <div class="preview__karusels_discription">
@@ -58,7 +58,7 @@
                             <p class="preview__karusels_discription_text">Откройте новые вкусы и традиции в каждой чашке.</p>
                             <a class="preview__karusels_discription_link">Смотреть новинки</a>
                         </div>
-                        <img class="preview__karusels_slaiser" src="./images/slaider_2.svg" alt="Слайдер 2" onclick="slaiderSecond();">
+                        <img class="preview__karusels_slaiser" src="./images/slaider_2.svg" alt="Слайдер 2">
                     </div>
                     <div class="slide preview__karusels_img-third background__half-scrin " id="karusel_3">
                         <div class="preview__karusels_discription">
@@ -66,7 +66,7 @@
                             <p class="preview__karusels_discription_text">Подберите идеальный чай для настроения, подарка или знакомства с культурой Японии..</p>
                             <a class="preview__karusels_discription_link">Открыть подборки</a>
                         </div>
-                        <img class="preview__karusels_slaiser" src="./images/slaider_3.svg" alt="Слайдер 3" onclick="slaiderThird();">
+                        <img class="preview__karusels_slaiser" src="./images/slaider_3.svg" alt="Слайдер 3">
                     </div>
                 </div>
             </section>
@@ -87,12 +87,16 @@
                         </div>
                         <p class="popular__card_name">Матча</p>
                         <div class="popular__card_price">
-                            1 990 ₽<span>/5 00 гр</span>
+                            1 990 ₽<span>/ 500 гр</span>
                         </div>
                         <div class="popular__card_plus-minus">
-                            <input type="button" value="-">
+                            <button>
+                                <img src="./images/minus.svg" alt="Минус">
+                            </button>
                             1
-                            <input type="button" value="+">
+                            <button>
+                                <img src="./images/plus.svg" alt="Плюс">
+                            </button>
                         </div>
                     </div>
                     <div class="popular__card">
@@ -106,9 +110,13 @@
                             1 990 ₽<span>/ 500 гр</span>
                         </div>
                         <div class="popular__card_plus-minus">
-                            <input type="button" value="-">
+                            <button>
+                                <img src="./images/minus.svg" alt="Минус">
+                            </button>
                             1
-                            <input type="button" value="+">
+                            <button>
+                                <img src="./images/plus.svg" alt="Плюс">
+                            </button>
                         </div>
                     </div>
                     <div class="popular__card">
@@ -122,9 +130,13 @@
                             1 350 ₽<span>/ 200 гр</span>
                         </div>
                         <div class="popular__card_plus-minus">
-                            <input type="button" value="-">
+                            <button>
+                                <img src="./images/minus.svg" alt="Минус">
+                            </button>
                             1
-                            <input type="button" value="+">
+                            <button>
+                                <img src="./images/plus.svg" alt="Плюс">
+                            </button>
                         </div>
                     </div>
                     <div class="popular__card">
@@ -138,9 +150,13 @@
                             1 450 ₽<span>/ 200 гр</span>
                         </div>
                         <div class="popular__card_plus-minus">
-                            <input type="button" value="-">
+                            <button>
+                                <img src="./images/minus.svg" alt="Минус">
+                            </button>
                             1
-                            <input type="button" value="+">
+                            <button>
+                                <img src="./images/plus.svg" alt="Плюс">
+                            </button>
                         </div>
                     </div>
                     <div class="popular__card card_display">
@@ -154,16 +170,37 @@
                             1 450 ₽<span>/ 200 гр</span>
                         </div>
                         <div class="popular__card_plus-minus">
-                            <input type="button" value="-">
+                            <button>
+                                <img src="./images/minus.svg" alt="Минус">
+                            </button>
                             1
-                            <input type="button" value="+">
+                            <button>
+                                <img src="./images/plus.svg" alt="Плюс">
+                            </button>
                         </div>
                     </div>
                 </div>
             </section>
             <!--Блок Категории продукции-->
-            <section class="product-categories">    
-
+            <section class="сategories">    
+                <div class="categories__category_img-first background__three-scrin">                   
+                    <h3 class="categories__category_title">Продукция Японского чая</h3>                       
+                    <a href="">
+                        <img class="categories__category_link" src="./images/link_white.svg" alt="Стрелка">
+                    </a>
+                </div>
+                <div class="categories__category_img-second background__three-scrin">                   
+                    <h3 class="categories__category_title">Подарочные наботы</h3>                       
+                    <a href="">
+                        <img class="categories__category_link" src="./images/link_white.svg" alt="Стрелка">
+                    </a>
+                </div>
+                <div class="categories__category_img-third background__three-scrin">                   
+                    <h3 class="categories__category_title">Продукция Японской посуды</h3>                       
+                    <a href="">
+                        <img class="categories__category_link" src="./images/link_white.svg" alt="Стрелка">
+                    </a>
+                </div>
             </section>
             <!--Блок Акции и выгодные предложения-->
             <section class="promotions">     

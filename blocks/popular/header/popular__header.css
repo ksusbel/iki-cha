@@ -1,19 +1,21 @@
 .popular__header {
- width: 100%;
+ width: 95%;
   padding: 0 0 0 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: stretch;  
   justify-content: space-between;
-  
+   margin: 0 auto;
 }
 
 @media screen and (min-width: 744px) {
-  .popular {
+  .popular__header {
     display: flex;
   flex-direction: row;
   align-items: stretch;  
   justify-content: space-between;
-   
-  }
+  
+   margin: 0 auto 26px auto;
 }
+}
+
