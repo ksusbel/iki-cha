@@ -1,5 +1,5 @@
 .сategories {
-    margin: 80px 0 0 0; 
+    margin: 80px auto 0 auto; 
   height: 100%;  
   padding: 0 0 0 0;
   display: grid;
@@ -13,15 +13,16 @@
 
 @media screen and (min-width: 744px) {
   .сategories {
-    margin: 80px 0 0 0;
+    margin: 80px auto 0 auto;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   }
 }
 @media screen and (min-width: 1920px) {
   .сategories {
-    margin: 144px 0 0 0;
+    margin: 144px auto 0 auto;
     grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;  
+  max-width: 1920px;
   }
 }

@@ -10,15 +10,16 @@
 
 @media screen and (min-width: 744px) {
   .background__three-scrin {
- 
+    min-height: 43vw;
+    max-width: 50%;
   
-  min-height: 43vw;
+ 
   }
 }
 
 @media screen and (min-width: 1920px) {
   .background__three-scrin { 
  
-  min-height: 43vw;
+  
   }
 }
