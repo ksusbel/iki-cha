@@ -1,0 +1,18 @@
+.preview__karusels_discription_text {
+    color: #2B2E2A80;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin: 0 0 0 6vw;
+}
+@media screen and (min-width: 744px) {
+  .preview__karusels_discription_text {
+    font-size: 0.8vw;
+    margin: 0 0 0 5vw;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .preview__karusels_discription_text {
+    font-size: 1vw;
+    margin: 0 0 0 5vw;
+  }
+}

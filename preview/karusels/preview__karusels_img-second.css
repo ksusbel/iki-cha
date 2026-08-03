@@ -1,0 +1,6 @@
+.preview__karusels_img-second {
+    background-image: url("../../../images/Rectangle_24.svg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    position: relative; 
+}

@@ -1,0 +1,19 @@
+.preview__karusels_discription {
+    width: 39vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+}
+@media screen and (min-width: 744px) {
+  .preview__karusels_discription {
+  width: 25vw;
+  
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .preview__karusels_discription {
+  width: 20vw;
+  
+  }
+}

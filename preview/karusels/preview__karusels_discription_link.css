@@ -1,0 +1,22 @@
+.preview__karusels_discription_link {
+    color: #2B2E2A;
+    font-size: 2vw;
+    font-weight: 400;
+    text-decoration: underline;      
+    text-decoration-color: #B8A46A;
+    text-underline-offset: 5px;
+    margin: 12px 0 0 6vw;
+           
+}
+@media screen and (min-width: 744px) {
+  .preview__karusels_discription_link {
+    font-size: 1vw;
+    margin: 12px 0 0 5vw;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .preview__karusels_discription_link {
+    font-size: 1.01vw;
+    margin: 12px 0 0 5vw;
+  }
+}
