@@ -2,13 +2,15 @@
     background-image: url("../../../images/category_1.png");
     background-size: cover;
     background-repeat: no-repeat; 
-    position: relative;  
+    background-position: center;
+    
 }
 .categories__category_img-second {
     background-image: url("../../../images/category_2.png");
     background-size: cover;
     background-repeat: no-repeat; 
-    position: relative;      
+    background-position: center;
+        
 }
 @media screen and (min-width: 1920px) {
   .categories__category_img-second {  
@@ -22,5 +24,6 @@
     background-image: url("../../../images/category_3.png");
     background-size: cover;
     background-repeat: no-repeat; 
-    position: relative;  
+    background-position: center;
+    
 }

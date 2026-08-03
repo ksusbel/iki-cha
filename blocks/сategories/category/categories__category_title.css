@@ -1,3 +1,15 @@
 .categories__category_title {
-    
+    margin: 16px 0 0 20px;
+    color: #EFEFEA;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;  
 }
+@media screen and (min-width: 744px) {
+  .categories__category_title {
+    margin: 28px 0 0 32px;
+  font-size: 32px;
+  }
+}
+
