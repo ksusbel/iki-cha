@@ -1,0 +1,30 @@
+.сategories {
+  margin: 80px auto 0 auto; 
+  height: 100%;  
+  padding: 0 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 16px;
+  width: 100%; 
+  justify-content: center;
+  
+}
+
+@media screen and (min-width: 744px) {
+  .сategories {
+    margin: 80px auto 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    min-width: 90%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .сategories {
+    margin: 144px auto 0 auto;
+    grid-template-columns: 0.7fr 1.3fr;
+    grid-template-rows: 1fr 1fr;  
+    max-width: 1920px;
+    min-width: 38vw;
+  }
+}

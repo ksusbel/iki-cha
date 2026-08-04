@@ -1,0 +1,29 @@
+.categories__category_img-first {
+    background-image: url("../../../images/category_1.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    
+}
+.categories__category_img-second {
+    background-image: url("../../../images/category_2.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+        
+}
+@media screen and (min-width: 1920px) {
+  .categories__category_img-second {  
+  grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
+.categories__category_img-third {
+    background-image: url("../../../images/category_3.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    
+}
