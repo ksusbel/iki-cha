@@ -3,8 +3,13 @@
     color: #2B2E2A;
     font-weight: 600;
     font-family: "Inter", Arial, sans-serif;
+    padding: 4px 0 0 0;
 }
 .popular__card_price span {   
     color: #2B2E2A80;
     font-weight: 400;
+}
+.popular__card_price > :nth-child(3) {
+  /* Стили для второго элемента */
+  text-decoration: line-through;
 }

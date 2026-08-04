@@ -1,0 +1,10 @@
+.popular__picture_perсent {
+    background-color: #6B8F71;
+    color: #EFEFEA;
+    font-size: 24px;
+    border-radius: 4px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    padding: 3px 5px;
+}
