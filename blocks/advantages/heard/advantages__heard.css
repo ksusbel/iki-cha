@@ -1,0 +1,10 @@
+.advantages__heard {
+     background-image: url("../../../images/advan.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+    
+}

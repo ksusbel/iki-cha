@@ -1,0 +1,27 @@
+.advantages__flex {  
+  height: 100%;  
+   padding: 24px 16px 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;  
+  justify-content: center;
+  margin: 0;
+  gap: 40px;
+}
+
+@media screen and (min-width: 744px) {
+  .advantages__flex {
+      flex-direction: row;
+      align-items: stretch; 
+      justify-content: center;  
+      flex-wrap: wrap;   
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .advantages__flex {    
+    max-width: 1920px; 
+     flex-wrap: nowrap; 
+     justify-content: space-between;
+  }
+}
