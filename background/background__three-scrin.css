@@ -1,0 +1,27 @@
+.background__three-scrin {
+    margin: 0 auto;
+  width: 100%;
+  height: 100%;  
+ position: relative;
+  min-height: 81vw;
+  max-height: 233vw;
+  padding: 0 0 0 0; 
+}
+
+@media screen and (min-width: 744px) {
+  .background__three-scrin {
+    min-height: 43vw;
+    min-width: 60vw;
+    max-width: 50%;
+  
+ 
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .background__three-scrin { 
+    min-height: 24vw;   
+    max-width: 100%;
+    min-width: 30vw;
+  }
+}
