@@ -20,9 +20,9 @@
 
 @media screen and (min-width: 1920px) {
   .background__half-scrin {
-  max-width: 88vw;
-  min-width: 38vw;
-  min-height: 40vw;
-  max-height: 86vw;
+  max-width: 50vw;
+        min-width: 19vw;
+        min-height: 32vw;
+        max-height: 43vw;
   }
 }
