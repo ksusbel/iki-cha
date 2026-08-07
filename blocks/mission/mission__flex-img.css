@@ -1,0 +1,24 @@
+.mission__flex-img {
+     width: 100%;
+  height: 100%;  
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;  
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 744px) {
+  .mission__flex-img {
+      flex-direction: row;
+      align-items: stretch; 
+      justify-content: center;     
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .mission__flex-img {    
+    max-width: 1920px; 
+  }
+}
