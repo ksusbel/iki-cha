@@ -47,3 +47,8 @@
 @import url(../blocks/advantages/flex/advantages__grid-el_iconka.css);
 @import url(../blocks/advantages/flex/advantages__grid-el_text.css);
 @import url(../blocks/advantages/flex/advantages__grid-el_title.css);
+@import url(../blocks/mission/mission.css);
+@import url(../blocks/mission/mission__flex-img.css);
+@import url(../blocks/mission/mission__grid-cont.css);
+@import url(../blocks/mission/mission__header.css);
+@import url(../blocks/mission/mission__text.css);
