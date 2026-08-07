@@ -9,14 +9,9 @@
   margin: 80px auto 0 auto;
 }
 
-@media screen and (min-width: 744px) {
-  .advantages {
-       
-  }
-}
-
 @media screen and (min-width: 1920px) {
   .advantages {    
     max-width: 1920px; 
+    margin: 144px auto 0 auto;
   }
 }
