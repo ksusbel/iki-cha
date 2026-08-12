@@ -16,7 +16,7 @@ grid-template-columns: repeat(auto-fit, minmax(744px, 1920px));
 }
 @media screen and (min-width: 1920px) {
   .mission__grid-cont {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.7fr 1.2fr;
   grid-template-rows: 1fr 1fr;
   }
 }
@@ -28,16 +28,21 @@ grid-template-columns: repeat(auto-fit, minmax(744px, 1920px));
 }
 @media screen and (min-width: 744px) {
   .mission__grid-cont img {
-     min-height: 93vw;
-    max-height: 61vw;
+     min-height: 45vw;
+        max-height: 47vw;
   }
 }
 @media screen and (min-width: 1920px) {
   .mission__grid-cont img {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;     
+        height: 460px;
+        min-height: 460px;
+        max-height: 460px; 
+        object-fit: cover;
+        object-position: bottom;  
   }
 }
 
@@ -46,4 +51,18 @@ color: #6B8F71;
 font-size: 24px;
 margin: 64px 16px 0 16px;
 padding: 0;
+}
+
+@media screen and (min-width: 744px) {
+  .mission__grid-cont p {
+     max-width: 1000px;        
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .mission__grid-cont p {     
+        max-width: 600px;
+        align-self: flex-start;
+        margin: 0;
+  }
 }
