@@ -9,6 +9,7 @@
 @import url(../blocks/header/links/header__links.css);
 @import url(../blocks/header/menu/header__menu_link.css);
 @import url(../blocks/background/background__half-scrin.css);
+@import url(../blocks/background/background__small-img.css);
 @import url(../blocks/preview/preview.css);
 @import url(../blocks/preview/logo/preview__logo.css);
 @import url(../blocks/preview/karusels/owl-carousel.css);
@@ -52,3 +53,9 @@
 @import url(../blocks/mission/mission__grid-cont.css);
 @import url(../blocks/mission/mission__header.css);
 @import url(../blocks/mission/mission__text.css);
+@import url(../blocks/choice/choice.css);
+@import url(../blocks/choice/choice__flex.css);
+@import url(../blocks/choice/choice__karusel.css);
+@import url(../blocks/choice/choice__slaider.css);
+@import url(../blocks/choice/choice__content.css);
+
