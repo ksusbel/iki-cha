@@ -1,0 +1,22 @@
+.choice__flex {
+         margin: 0; 
+  height: 100%;   
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 744px));
+  /*grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 1fr; */
+  justify-items: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 744px) {
+  .choice__flex {
+grid-template-columns: repeat(auto-fit, minmax(744px, 1920px));
+  }
+}
+@media screen and (min-width: 1920px) {
+  .choice__flex {
+    grid-template-columns: 0.7fr 1.2fr;
+  grid-template-rows: 1fr 1fr;
+  }
+}
