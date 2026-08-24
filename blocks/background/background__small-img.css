@@ -1,0 +1,28 @@
+.background__small-img {
+    margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  min-width: 79vw;
+  max-width: 139vw;
+  min-height: 81vw;
+  max-height: 233vw;
+  padding: 0 0 0 0;  
+}
+
+@media screen and (min-width: 744px) {
+  .background__small-img {
+  min-width: 50vw;
+  max-width: 744px;
+  min-height: 40vw;
+  max-height: 86vw;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .background__small-img {
+       max-width: 50vw;
+        min-width: 43vw;
+        min-height: 40vw;
+        max-height: 43vw;
+  }
+}
