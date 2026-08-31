@@ -1,6 +1,7 @@
 .page {
-    margin: 0;
+    margin: 0 auto;
     background-color: #EFEFEA;
     color: #2F4F3E;
     font-family: "Manrope", Arial, sans-serif;
+    max-width: 1920px;
 }
