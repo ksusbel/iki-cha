@@ -1,5 +1,6 @@
 .choice__content {
-    
+    margin: 40px 26px 24px 26px;
+    max-width: 350px;
 }
 .choice__content img {
     width: 30px;
