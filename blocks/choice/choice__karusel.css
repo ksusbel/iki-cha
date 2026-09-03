@@ -1,3 +1,33 @@
 .choice__karusel {
-  
+   max-width: 1920px;
+   width: 100%;
+}
+#choice_slider {
+     position: relative;
+}
+.owl-nav .owl-prev {
+    position: absolute;
+    left: 30%;
+  top: 95%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.owl-nav .owl-next {
+    position: absolute;
+    right: 30%;
+  top: 95%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+@media screen and (min-width: 1920px) {
+  .owl-nav .owl-prev {
+    position: absolute;
+    top: 525px;
+    left: 1200px;
+}
+.owl-nav .owl-next {
+    position: absolute;
+    top: 525px;
+    left: 1530px;
+}
 }

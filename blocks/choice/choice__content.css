@@ -2,8 +2,32 @@
     margin: 40px 26px 24px 26px;
     max-width: 350px;
 }
+@media screen and (min-width: 1920px) {
+  .choice__content {    
+    justify-self: start;
+  }
+}
+
 .choice__content img {
     width: 30px;
     height: 30px;
     
+}
+.choice__content a {
+    text-decoration: none;
+}
+.choice__content h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 32px 0 25px 0;
+    font-weight: 500;
+    color: #2F4F3E;
+}
+.choice__content p, div {
+    color: #6B8F71;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+.choice__content p {
+margin: 16px 0 40px 0;
 }

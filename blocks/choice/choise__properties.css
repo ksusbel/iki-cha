@@ -1,0 +1,7 @@
+.choise__properties {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px 8px;
+    align-items: center;
+}

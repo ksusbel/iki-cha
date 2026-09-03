@@ -1,3 +1,24 @@
 .choice__slaider {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 371px;
+}
+@media screen and (min-width: 1920px) {
+  .choice__slaider {    
+    justify-self: start;
+    align-self: start;
+        margin: 20px 0 0 25px;
+        width: 350px;
+  }
+}
+.choice__slaider_point {
+    width: 38px;
+    height: 10px;    
+    cursor: pointer;
+}
+.choice__slaider_link {
+    width: 23px !important;
+    height: 25px;    
+    cursor: pointer;
 }
