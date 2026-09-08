@@ -8,13 +8,13 @@
 .owl-nav .owl-prev {
     position: absolute;
     left: 30%;
-  top: 95%;
+  top: 96%;
     transform: translateX(-50%) translateY(-50%);
 }
 .owl-nav .owl-next {
     position: absolute;
     right: 30%;
-  top: 95%;
+    top: 96%;
     transform: translateX(-50%) translateY(-50%);
 }
 
@@ -22,12 +22,17 @@
 @media screen and (min-width: 1920px) {
   .owl-nav .owl-prev {
     position: absolute;
-    top: 525px;
-    left: 1200px;
+    top: 545px;
+    left: 52vw;
 }
 .owl-nav .owl-next {
     position: absolute;
-    top: 525px;
-    left: 1530px;
+    top: 545px;
+    left: 64.5vw;
+}
+.owl-dots {
+  position: absolute;
+    top: 545px;
+    left: 57vw;
 }
 }
